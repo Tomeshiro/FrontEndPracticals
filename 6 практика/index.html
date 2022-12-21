@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Кометон</title>
+        <!--Фавинконка-->
+        <link rel="icon" type="image/png" href="comet.png">
+    </head>
+    <body>
+
+
+
+
+        <header class="header">
+            <div class="header__inner">
+                <img class="banner" src="comet.png" alt="Изображение не загружено" width="128px" height="128px">
+                <h1 class="title">Астероиды и кометы</h1>
+                
+                <div class="notification">
+                    <div class="bell__container">
+                        <img class="bell" src="bell.svg" width="64" height="64">
+                    </div>
+                    <h3 class="bell__number">4</h3>
+                    <ol class="notification__menu">
+                        <li><div>1 Кометы</div></li>
+                        <li><div>2 Астероиды</div></li>
+                        <li><div>3 Контакты</div></li>
+                    </ol>
+                </div>
+
+                <div class="burger">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                  </label>
+                    <ul class="menu">
+                      <li><a class="nav__link" href="#Topic1">Кометы</a></li>
+                      <li><a class="nav__link" href="#Topic2">Астероиды</a></li>
+                      <li><a class="nav__link" href="#End">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+
+
+        <div class="mainAside">
+            <main>
+
+            <section class="Topic1">
+        <h2 id="Topic1">Кометы</h2>
+            
+        <div class="buttons">
+            <div class="button" id="button1">Click me!</div>
+            <div class="button" id="button2">Click me!</div>
+            <div class="button" id="button3">Click me!</div>
+            <div class="button" id="button4"></div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+            <img src="1.jpg" height="400" width="200">
+            <div class="hidden__card">
+                <h3>Метеорит</h3>
+                <p>Куча куча куча текста про метеорит</p>
+                <button>Подробнее</button>
+            </div>
+            </div>
+            <div class="card">
+            <img src="2.jpg" height="400" width="200">
+            <div class="hidden__card">
+                <h3>Астероид</h3>
+                <p>Куча куча куча текста про астероид</p>
+                <button>Подробнее</button>
+            </div>
+            </div>
+            <div class="card">
+            <img src="3.jpg" height="400" width="200">
+            <div class="hidden__card">
+                <h3>Метеорит и астероид</h3>
+                <p>Куча куча куча текста про метеорит и астероид</p>
+                <button>Подробнее</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="video__container">
+            <div class="video">
+            <iframe src="video.html" title="video" width="400" height="400"></iframe>
+            </div>
+            <div class="video__popup">
+                <h3>Заголовок</h3>
+                <p>Куча непонятного текста про метеорит в видео</p>
+            </div>
+        </div>
+
+            <section class="Topic2">
+        <h2 id="Topic2">Астероиды</h2>
+
+        <section class="gallery">
+            <img src="1.jpg" height="200" width="200">
+            <img src="2.jpg" height="200" width="200">
+            <img src="3.jpg" height="200" width="200">
+            <img src="4.jpg" height="200" width="200">
+            <img src="5.jpg" height="200" width="200">
+            <img src="6.jpg" height="200" width="200">
+            <img src="7.jpg" height="200" width="200">
+            <img src="8.jpg" height="200" width="200">
+            <img src="9.jpg" height="200" width="200">
+        </section>
+
+            
+        </main>
+            <aside class="sidebar">
+                <h3>Картинки комет</h3>
+                <p><img src="comet1.png" height="128" width="128"></p>
+                <p><img src="comet2.jpg" height="128" width="128"></p>
+                <p><img src="comet3.jpeg" height="128" width="128"></p>
+                <p><img src="comet4.jpg" height="128" width="128"></p>
+                <p><img src="comet5.jpg" height="128" width="128"></p>
+                <p><img src="comet6.jpg" height="128" width="128"></p>
+                <p><img src="comet7.jpg" height="128" width="128"></p>
+            </aside>
+        </div>
+
+
+
+
+        <footer class="footer">
+        <!--Ссылки на номер телефона и почтовый клиент-->
+            <div class="footer__left">
+            <address class="address">
+                <a class="address__link" href="tel:01234567890">Позвонить по номеру</a>
+            </address>
+            </div>
+            <div class="footer__right">
+            <address class="address">    
+                <a class="address__link" href="mailto:somebody@mail.ru">Отправить письмо</a>
+            </address>
+            <h1 id="End"></h1>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,157 @@
+body {
+    background-color:blanchedalmond;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.header {
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    height: 256;
+    background-color: darkorchid;
+    padding: 10, 30;
+}
+
+
+.header__inner {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.banner {
+    position: relative;
+    left:50px;
+    margin: 5px;
+}
+.title  {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+
+.nav__top {
+    position:relative;
+    right:50px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.nav__link {
+    display:inline-block;
+    vertical-align: top;
+    margin:0 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: underline dotted red;
+
+    color:blue;
+    font-weight: 400;
+
+}
+
+
+.nav__link:visited {
+    color:rgb(155, 119, 167);
+}
+
+
+.nav__link:hover {
+    color:palevioletred;
+}
+
+
+.nav__link:active {
+    color:goldenrod;
+}
+
+
+
+
+.mainAside {
+    padding-top: 135px;
+    background-color: rgb(50, 176, 204);
+    display:flex;
+    justify-content:space-between;
+}
+
+main {
+    display:grid;
+}
+
+.sidebar {
+    background-color:rgb(171, 59, 171);
+}
+
+.quote {
+    position: absolute;
+    width: 500px;
+    left: 400px;
+    top: 400px;
+    background: yellow;
+    border: 1px solid red;
+
+}
+
+.poem {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    margin-bottom: 100px;
+}
+
+.cometImg {
+    float:right;
+    margin-left:1rem;
+}
+
+
+.asteroidImg {
+    float:left;
+    margin-right:1rem;
+}
+
+
+.footer {
+    width:100%;
+    height:400;
+
+    background-color: purple;
+    position:sticky;
+    bottom: 0px;
+}
+
+
+.address {
+    font-size:36px;
+    text-decoration:none;
+    color:blueviolet;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.address__link {
+    display:inline-block;
+    vertical-align: top;
+    margin:0 10px;
+
+    color:rgb(40, 11, 56);
+    text-decoration: none;
+}
+
+ul {
+    list-style: square;
+}
