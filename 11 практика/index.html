@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Кометон</title>
+        <!--Фавинконка-->
+        <link rel="icon" type="image/png" href="comet.png">
+    </head>
+    <body>
+
+
+
+
+        <header class="header">
+            <div class="header__inner">
+                <img class="banner" src="comet.png" alt="Изображение не загружено" width="128px" height="128px">
+                <h1 class="title">Астероиды и кометы</h1>
+
+                <div class="burger">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                  </label>
+                    <ul class="menu">
+                      <li><a class="nav__link" href="#Topic1">Кометы</a></li>
+                      <li><a class="nav__link" href="#Topic2">Астероиды</a></li>
+                      <li><a class="nav__link" href="#End">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+
+
+        <main>
+
+
+            <section class="Topic1">
+                <h2 id="Topic1">Кометы</h2>
+                  
+
+                <div class="box-notification">
+                    <div id="not_hover" class="notifications">
+                        <i class="fa-solid fa-bell"></i>
+                        <img class="bellicon" src="" alt="">
+                        <span id="number" class="num">4</span>
+                        <ul id="app" class="notification-list">
+                            <li>
+                                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                                <span class="text">Уведомление 1</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                                <span class="text">Уведомление 2</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                                <span class="text">Уведомление 3</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                                <span class="text">Уведомление 4</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="mass">
+                    <div class="our_elms">
+                        <div class="elem" id="elem1">Астероид</div>
+                        <div class="elem" id="elem2">Метеорит</div>
+                        <div class="elem" id="elem3">Ракета</div>
+                        <div class="elem" id="elem4">Космос</div>
+                        <div class="elem" id="elem5">Солнце</div>
+                    </div>
+                    <button class="bbb" id="replace">Поменять</button>
+                    <button class="bbb" id="remove">Удалить первый</button>
+                </div>
+    
+                <div class="filter">
+                    <ul class="our_filt">
+                        <li class="filt_elm">2</li>
+                        <li class="filt_elm">38</li>
+                        <li class="filt_elm">13</li>
+                        <li class="filt_elm">100</li>
+                        <li class="filt_elm">15</li>
+                        <li class="filt_elm">89</li>
+                        <li class="filt_elm">141</li>
+                        <li class="filt_elm">346</li>
+                        <li class="filt_elm">99</li>
+                    </ul>
+                    <button class="bbb" id="filting">Вывести элементы в<br>выбранном диапазоне</button>
+                    <ul class="ft">
+                        <li class="new_f"></li>
+                        <li class="new_f"></li>
+                        <li class="new_f"></li>
+                        <li class="new_f"></li>
+                        <li class="new_f"></li>
+                        <li class="new_f"></li>
+                        <li class="new_f"></li>
+                        <li class="new_f"></li>
+                        <li class="new_f"></li>
+                        <li class="new_f"></li>
+                    </ul>
+                </div>
+
+
+                <div class="filter">
+                    <ul class="our_filt" id="sortFi">
+                        <li class="sort_elm">2</li>
+                        <li class="sort_elm">38</li>
+                        <li class="sort_elm">13</li>
+                        <li class="sort_elm">100</li>
+                        <li class="sort_elm">15</li>
+                        <li class="sort_elm">89</li>
+                        <li class="sort_elm">141</li>
+                        <li class="sort_elm">346</li>
+                        <li class="sort_elm">99</li>
+                    </ul>
+                    <button class="bbb" id="sortUp">Сортировать элементы<br>по возрастанию</button>
+                    <button class="bbb" id="sortDown">Сортировать элементы<br>по убыванию</button>
+                </div>
+
+
+                <section class="Topic2">
+        <h2 id="Topic2">Астероиды</h2>
+
+        <section class="gallery">
+            <img src="1.jpg" height="200" width="200">
+            <img src="2.jpg" height="200" width="200">
+            <img src="3.jpg" height="200" width="200">
+            <img src="4.jpg" height="200" width="200">
+            <img src="5.jpg" height="200" width="200">
+            <img src="6.jpg" height="200" width="200">
+            <img src="7.jpg" height="200" width="200">
+            <img src="8.jpg" height="200" width="200">
+            <img src="9.jpg" height="200" width="200">
+        </section>
+
+            
+        </main>
+            <aside class="sidebar">
+                <h3>Картинки комет</h3>
+                <p><img src="comet1.png" height="128" width="128"></p>
+                <p><img src="comet2.jpg" height="128" width="128"></p>
+                <p><img src="comet3.jpeg" height="128" width="128"></p>
+                <p><img src="comet4.jpg" height="128" width="128"></p>
+                <p><img src="comet5.jpg" height="128" width="128"></p>
+                <p><img src="comet6.jpg" height="128" width="128"></p>
+                <p><img src="comet7.jpg" height="128" width="128"></p>
+            </aside>
+
+
+            <aside class="ads">
+                <h3>Реклама</h3>
+                <h>Продаём останки метеорита</h>
+                <img src="comet1.png" height="128" width="128">
+                <p>Чтобы купить всё, что осталось от метеорита, нужно всего лишь...</p>
+            </aside>
+
+
+            <footer id="footer-main">
+                <div class="footer-grid">
+                 
+                      <section id="footer-1">
+                        <h4 class="footer-h">О нас</h4>
+                          <p>Бла бла бал бла бла бла ссылки в соцсети</p>
+                          <div>
+                            <img class="icon" src="icon1.png" height="32" width="32">
+                            <img class="icon" src="icon2.png" height="32" width="32">
+                            <img class="icon" src="icon3.png" height="32" width="32">
+                            <img class="icon" src="icon4.png" height="32" width="32">
+                        </div>
+                      </section>
+              
+                     <section id="footer-2">
+                        <h4 class="footer-h">Быстрые ссылки</h4>
+                          <p>Дом</p>
+                          <p>Кометы</p>
+                          <p>Метеориты</p>
+                          <p>Конец</p>
+                      </section>
+              
+                     <section id="footer-3">
+                       <h4 class="footer-h">Магазин</h4>
+                         <p>Кометы</p>
+                         <p>Метеориты</p>
+                         <p>Кометы</p>
+                         <p>Метеориты</p>
+                     </section>
+              
+                     <section id="footer__4">
+                      <h4 class="footer-h">Контактная информация</h4>
+                         <p>ул.Вернадская, д.78, корпус 1</p>
+                         <p>+1 234 567-89-0</p>
+                         <p>+2 345 678-90-1</p>
+                         <p>example@mail.com</p>
+                      </section>
+                 </div>
+                
+              </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
